@@ -1337,3 +1337,12 @@ return InsideLibrary
 end
 
 return library
+
+local GuiLibrary = {}
+
+function GuiLibrary.CreateUI()
+    print("UI Created!")
+    -- Your UI creation code goes here
+end
+
+return GuiLibrary
